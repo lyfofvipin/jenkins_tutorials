@@ -1,0 +1,15 @@
+pipeline{
+    agent 'any'
+    stages{
+        stage("Stage_Name"){
+            steps{
+                sh "echo Test Stage."
+            }
+        }
+    }
+    post{
+        success{
+            cleanWs()
+        }
+    }
+}
