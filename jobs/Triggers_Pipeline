@@ -1,6 +1,7 @@
 properties([
     pipelineTriggers([
 
+        // rename job-01 with the job you want to set as upstream
         // Triggering only if upstream Projects are successfully completed
         // upstream('job-01')
 
