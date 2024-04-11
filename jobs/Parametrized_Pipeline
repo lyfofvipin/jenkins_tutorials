@@ -1,0 +1,28 @@
+properties([
+    parameters([
+        booleanParam(defaultValue: true, description: 'test_bool desc', name: 'test_bool'),
+        choice(choices: ['choice 1', 'choice 2', 'choice 3'], description: 'test_choice_parm', name: 'test_choice_parm'),
+        string(defaultValue: 'test string', description: 'test_str_parm desc', name: 'test_str_parm')
+    ])
+])
+
+params.each { k, v -> env[k] = v }
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo test_bool
+                echo test_choice_parm
+                sh "echo $test_str_parm"
+            }
+        }
+    }
+    post{
+        always{
+            cleanWs()
+        }
+    }
+}
