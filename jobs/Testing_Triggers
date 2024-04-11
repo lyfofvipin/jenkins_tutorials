@@ -1,0 +1,40 @@
+properties([
+    pipelineTriggers([
+
+        // Triggering only if upstream Projects are successfully completed
+        // upstream('job-01')
+
+        // Triggering only if upstream Projects are completed Failed
+        // upstream(threshold: 'FAILURE', upstreamProjects: 'job-01')
+
+        // Triggering only if upstream Projects are completed Unstable
+        // upstream(threshold: 'UNSTABLE', upstreamProjects: 'job-01')
+
+        // Triggering on all the status of upstream Projects
+        upstream(threshold: 'ABORTED', upstreamProjects: 'job-01'),
+
+        // Periodically triggering Jenkins pipeline Job
+        cron('* * * * *'),
+
+        // Triggering Jenkins pipeline Job on any Git repo change/Poll SCM trigger
+        pollSCM('* * * * *')
+    ])
+])
+
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+    post{
+        always{
+            cleanWs()
+        }
+    }
+}
