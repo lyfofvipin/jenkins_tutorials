@@ -1,3 +1,4 @@
+folder('test_folder') // This will create a folder first
 job("test_folder/test_freestyle_job"){
     steps {
         shell('echo Hello World!')

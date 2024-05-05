@@ -39,13 +39,15 @@ jenkins:
       - id: "test"
         password: "test_jenkins"
         name: "Test User"
-        - mailer:
-            emailAddress: "test@jenkins.com"
+        properties:
+          - mailer:
+              emailAddress: "test@jenkins.com"
       - id: "vipin"
         password: "test_jenkins"
         name: "Kumar Vipin Yadav"
-        - mailer:
-            emailAddress: "abc@jenkins.com"
+        properties:
+          - mailer:
+              emailAddress: "abc@jenkins.com"
 
   updateCenter:
     sites:
