@@ -2,7 +2,7 @@
 jenkins_tutorials is a repository to upload all the code used in Youtube Playlist https://www.youtube.com/playlist?list=PL1qKudIXSmxp5KkZMDm2-c_K8Q2QU3VPM
 
 
-[![01 | What Is Jenkins | How To Install Jenkins | Installing Jenkins On Windows](http://img.youtube.com/vi/5i9gcVsP8Vswcn7W/0.jpg)](http://www.youtube.com/watch?v=5i9gcVsP8Vswcn7W)
+[![01 | What Is Jenkins | How To Install Jenkins | Installing Jenkins On Windows](http://img.youtube.com/vi/iFW9AOg1vw4/0.jpg)](http://www.youtube.com/watch?v=iFW9AOg1vw4)
 
 [![02 | Jenkins Dashboard Overview | Understanding Jenkins Dashboard](http://img.youtube.com/vi/MXuykDC4StM/0.jpg)](http://www.youtube.com/watch?v=MXuykDC4StM)
 
@@ -16,7 +16,6 @@ jenkins_tutorials is a repository to upload all the code used in Youtube Playlis
 
 [![07 | Jenkins Plugins | How To Install Plugins In Jenkins | Blue Ocean Plugin](http://img.youtube.com/vi/1v6RphcG9Rc/0.jpg)](http://www.youtube.com/watch?v=1v6RphcG9Rc)
 
-[![01 | What Is Jenkins | How To Install Jenkins | Installing Jenkins On Windows](http://img.youtube.com/vi/5i9gcVsP8Vswcn7W/0.jpg)](http://www.youtube.com/watch?v=5i9gcVsP8Vswcn7W)
 
 [![08 | Jenkins Users Management | How Manage User Permissions In Jenkins](http://img.youtube.com/vi/mlLRVcyULwU/0.jpg)](http://www.youtube.com/watch?v=mlLRVcyULwU)
 
