@@ -1,4 +1,6 @@
 jenkins:
+  systemMessage: "This is a test JCASC Server for more check the playlist https://www.youtube.com/playlist?list=PL1qKudIXSmxp5KkZMDm2-c_K8Q2QU3VPM"
+
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
